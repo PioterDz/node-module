@@ -10,9 +10,11 @@ process.stdin.on('readable', function() {
 				process.exit();
 				break;
 			case '/nodeversion':
-				console.log('Your node version is ' + process.versions.node);
+                console.log('Your node version is ' + process.versions.node);
+                break;
 			case '/lang':
-				console.log('Your os language is ' + process.env.lang);
+                console.log('Your os language is ' + process.env.lang);
+                break;
 		}
 	}
 });
