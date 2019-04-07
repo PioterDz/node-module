@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/PioterDz/node-module#readme",
   "dependencies": {
-    "colors": "^1.3.3"
+    "colors": "^1.3.3",
+    "stat-mode": "^0.3.0"
   }
 }
