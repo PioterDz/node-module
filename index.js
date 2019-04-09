@@ -1,4 +1,5 @@
 var http = require('http');
+var fs = require('fs');
 
 var server = http.createServer();
 
@@ -16,3 +17,10 @@ server.on('request', function (request, response) {
 });
 
 server.listen(8080);
+
+fs.readFile('./index.html', 'utf-8', function(err, data) {
+    if (err) {
+        throw err;
+    }
+    console.log(data);
+});
