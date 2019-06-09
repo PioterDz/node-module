@@ -11,7 +11,7 @@ server.on('request', function (request, response) {
     }
     else {
         response.statusCode = 404;
-        response.write('<h1>404: Zła ścieżka!</h1>');
+        response.write('<img src="https://linube.com/blog/wp-content/uploads/error-404.jpg"></img>');
         response.end();
     }
 });
