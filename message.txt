@@ -1,1 +1,8 @@
-.git,cat.jpg,index.js,message.txt,node_modules,package-lock.json,package.json
+
+.git 
+cat.jpg 
+message.txt 
+node_modules 
+index.js 
+package.json 
+package-lock.json 
